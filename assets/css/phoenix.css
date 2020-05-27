@@ -63,14 +63,16 @@ select {
 
 /* Phoenix promo and logo */
 .phx-hero {
+  background-image: url("images/amg.jpg");
   text-align: center;
   border-bottom: 1px solid #e3e3e3;
   background: #eee;
   border-radius: 6px;
   padding: 3em;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   font-weight: 200;
   font-size: 120%;
+
 }
 .phx-hero p {
   margin: 0;
@@ -84,7 +86,6 @@ select {
   width: auto;
   display: block;
 }
-
 /* Headers */
 header {
   width: 100%;
@@ -131,4 +132,5 @@ header nav a {
     flex-basis: 527px;
     margin: 2rem 1rem;
   }
+
 }
